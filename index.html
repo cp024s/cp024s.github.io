@@ -27,18 +27,31 @@
             margin: 20px;
             background-color: #fff;
             border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         section h2 {
             color: #333;
         }
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        .about-section {
+            background-color: #e7e7e7; /* Light gray background */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(189, 64, 64, 0.1); /* Subtle shadow */
+            max-width: 1800px;
+            margin: 30px auto 20px; /* Added margin-top for spacing from header */
+
+            font-family: "Helvetica", Arial, sans-serif; /* Change to Helvetica */
+            font-size: 20px; /* Adjust size */
+            font-weight: 500; /* Regular weight */
+            color: #333; /* Dark gray text */
+            text-align: justify; /* Justify the text */
+            line-height: 1.6; /* Improve readability */
+}
+
+        .about-text {
+            text-align: justify;
+            font-size: 16px;
+            line-height: 1.6;
         }
         .contact-info {
             list-style: none;
@@ -68,6 +81,14 @@
         .repo-links li {
             margin-bottom: 10px;
         }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -77,9 +98,16 @@
         <p>Location: Chennai</p>
     </header>
     
-    <section>
+    <section class="about-section">
         <h2>About Me</h2>
-        <p>Hi! I'm Chandra Prakash, a passionate RTL Design Engineer with a strong interest in Computer Architecture, VLSI Design, and Verification. Currently, I am a final-year student at PSG Institute of Technology and Applied Research, Coimbatore. I'm also a trainee at Maven Silicon, Bengaluru. I am looking for roles in RTL Design, SoC Design, and Verification Engineering. I enjoy learning new concepts in advanced digital design and system verification. I'm always eager to collaborate with others on exciting projects involving Verilog, VHDL, SystemVerilog, UVM, and more!</p>
+        <p class="about-text">
+            Hi! I'm Chandra Prakash, a passionate RTL Design Engineer with a strong interest in Computer Architecture, VLSI Design, and Verification. <br>
+            I have completed my Bachelor's degree in Electronics and Communication Engineering at PSG Institute of Technology and Applied Research, Coimbatore. <br>
+            Currently, I am working as a Jr. FPGA Engineer at Pinaca Technologies and have also trained at Maven Silicon, Bengaluru.
+            <br><br>
+            I am looking for roles in RTL Design, SoC Design, and Verification Engineering. I enjoy learning new concepts in advanced digital design and system verification. <br>
+            I'm always eager to collaborate with others on exciting projects involving Verilog, VHDL, SystemVerilog, UVM, and more!
+        </p>
     </section>
 
     <section>
