@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;  /* Enables horizontal alignment */
+    align-items: center; /* Vertically align items */
+    justify-content: flex-start; /* Align content to the left */
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%;  /* Makes the image circular */
+    margin-right: 20px;  /* Creates space between the image and text */
+}
+
+.header-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+header h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title-style {
+    font-size: 20px; /* Increase text size */
+    font-weight: 200; /* Make it bold */
+    text-align: center; /* Center align */
+    color: #ffffff; /* Dark gray color */
+    margin-top: 10px; /* Adjust spacing */
+    
+}
+
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about-section {
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1800px;
+    margin: 50px auto 50px;
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Headings */
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #333;
+}
+
+/* Contact Info */
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px 0 ;
+}
