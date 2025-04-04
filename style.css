@@ -79,6 +79,15 @@ section {
     line-height: 1.6;
 }
 
+.title-style {
+    font-size: 24px; /* Increase text size */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center align */
+    color: #444; /* Dark gray color */
+    margin-top: 10px; /* Adjust spacing */
+    letter-spacing: 1px; /* Improve readability */
+}
+
 /* Headings */
 h2 {
     font-size: 24px;
